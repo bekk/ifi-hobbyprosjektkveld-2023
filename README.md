@@ -13,25 +13,22 @@ Denne guiden kan man bruke som en kickstart til et nytt hobbyprosjekt. Guiden er
 
 
 ### Hva denne guiden *ikke* er 🔴
-Dette er *ikke* ett sted hvor man lærer grunnleggende webutvikling. Byggesteinene til weben er HTML, CSS og JavaScript. Dette er viktig å poengtere og vi anbefaler sterkt å sette seg inn i disse dersom man ønsker å jobbe med webutvikling. 
+Dette er *ikke* ett sted hvor man lærer grunnleggende webutvikling. Byggesteinene til weben er HTML, CSS og JavaScript. Dette er viktig å poengtere og det anbefales å å bli kjent med de grunnleggende tingene dersom man ønsker å jobbe med webutvikling. 
 
 Men i webutviklingssfæren i dag finnes det en jungel av verktøy som hjelper oss å lage løsninger raskere og bedre enn hva vi kunne gjort med ren HTML, CSS og JavaScript. 
 
 Et eksempel på et slikt verktøy er Next.js, som vi vil bruke i dag. [Next.js](https://nextjs.org/) er et *rammeverk* for [React](https://react.dev/), som igjen er et *bibliotek* for webutvikling. 
 
-
 ### Hva vil man sitte igjen med? 🎁 
-Når du har følgt denne guiden vil du sitte igjen med en nettside bygget med Next.js. Nettsiden din vil bli tilgjengelig via Vercel, en skyplattform som bl.a. tilbyr hosting av nettsider. Dette kan være starten på ditt neste store prosjekt, eller bare en gøy liten greie du kan vise til familie, venner og potensielle arbeidsgivere.    
-
+Når du har følgt denne guiden vil du sitte igjen med en nettside bygget med Next.js. Nettsiden din vil bli tilgjengelig via Vercel, en skyplattform som bl.a. tilbyr hosting av nettsider. Dette kan være starten på ditt neste store prosjekt, eller bare en gøy liten greie du kan vise til familie, venner og potensielle arbeidsgivere. 
 
 ### Prerequisites 🔨
-For å kunne gjennomføre disse stegene er man nødt til å ha tre ting klart.
+For å kunne gjennomføre disse stegene er man nødt til å ha noen ting klart:
 
 1. Installert [Node](https://nodejs.org/en)
 2. En bruker på [GitHub](https://github.com/)
 3. Installert [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 
 4. Installert en IDE (f.eks. [VsCode](https://code.visualstudio.com/))
-
 
 
 # Guide
@@ -69,10 +66,14 @@ Deretter vil få opp en rekke prompts hvor du blir bedt om å velge hvordan pros
 
 ```
 
-Velg default (`enter`) på alle.
-
-
 ## Del 2: Utforsk prosjektet og gjør noen endringer 💅
+
+<table>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/21195934/232860559-8dc34b8c-79f9-47e8-bb3d-8b2d3bd09555.png" height="70%" width="50%"/></td>
+    <td valign="top"><p>Når du åpner prosjektet ditt i din favoritt IDE, burde du bli møtt med noe lignende dette 👈</p></td>
+  </tr>
+</table>
 
 ## Del 3: Publiser prosjetet ditt på GitHub
 1. Logg inn på brukeren din på GitHub.com
