@@ -144,18 +144,31 @@ export default function Home() {
 
 ## Del 3: Publiser prosjektet ditt på GitHub
 
+<details> 
+  <summary>💡Ny til GitHub?</summary>
+  GitHub er et av de mest populære verktøyene for håndtering av kildekode.
+  Sammen med Git et det nok en av de mest brukte teknologiene blant utviklere i verden.
+  Bruk av Git kan virke litt komplisert i begynnelsen, men å gjennomføre de vanligste operasjonene er ikke så veldig vanskelig. For å jobbe med Git og GitHub kan man bruke terminalen, men man kan også bruke [GitHub Desktop](https://desktop.github.com/) om man er mer komfortabel med det.
+
+</details>
+
 1. Logg inn på brukeren din på GitHub.com
-2. Opprett et nytt repository.
+2. Opprett et nytt repository ved å trykke på "+"-tegnet øverst i høyre hjørnet.
 3. Kopier terminalkommandoene som står under "push existing repository" Det burde se ca. slik ut:
 
 ```bash
-git remote add origin git@github.com:bekk/ifi-hobbyprosjektkveld-2023.git
+git remote add origin git@github.com $DITT_REPO_HER
 git branch -M main
 git push -u origin main
 ```
 
+📦 Etter at koden over har kjørt, har du fått lastet opp koden din til GitHub. Fra nå av kan du gjøre endringer lokalt, og pushe de til ditt GitHub repository når du er klar for det. 
+  
 ## Del 4: Vis prosjektet ditt til verden 🌍
 
 1. Gå til [Vercel](https://vercel.com/) og opprett en bruker, gjerne ved å bruke GitHub-brukeren din.
 
-2. Opprett et nytt Vercel-prosjekt. Importer GitHub-repoet som ble publisert på GitHub i del 3.
+2. Under [Vercel/new](https://vercel.com/new), opprett et nytt prosjekt ved å importere repositoriet du satt opp i forrige steg. Velg et navn for prosjektet ditt i Vercel, og trykk på <button style="background:black;color:white;border-radius:3px;">deploy</button>
+3. Vent på konfetti 🎊🎊🎊🎊 
+
+## Del 5: Gjør noen nye oppdateringer på prosjektet ditt og 
